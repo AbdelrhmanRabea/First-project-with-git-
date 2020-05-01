@@ -79,6 +79,7 @@ list-style-type: none;
 }
 /* ////////////////////////////////////////////*/
 
+<<<<<<< HEAD
 /*HAPPY CUSTOMER SAYS (Section)*/
 *{
     padding:0; 
@@ -93,3 +94,23 @@ list-style-type: none;
 {
     margin-top: 10%;
 }
+=======
+
+.bg-img-slider1 , .bg-img-slider2{
+    
+    background-position: center center;
+    background-size: cover;
+    height: 750px;
+    background-repeat: no-repeat;
+
+}
+
+
+.bg-img-slider1{
+    background-image: url(../images/slider-1.jpg);
+}
+.bg-img-slider2{
+    background-image: url(../images/slider-2.jpg);
+}
+/* ////////////////////////////////////////////*/
+>>>>>>> 239f1df88bd8cff614247e7fcf50f32554f381a9
