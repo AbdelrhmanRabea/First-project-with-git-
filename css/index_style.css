@@ -1,8 +1,6 @@
 
 /* NavBar Style */
 
-
-
 .navStyle a{
     color:rgba(0,0,0,.7);
 }
@@ -41,3 +39,27 @@ list-style-type: none;
 }
 
 /* ////////////////////////////////////////////*/
+/* Our News  */ 
+.ourNews
+{
+    background-color: #F8F9FA;
+}
+.newsheader
+{
+    font-size: 2rem ;
+    line-height: 1.2;
+}
+.linecolor
+{
+    height: 2px;
+    background-color: #017BFF;
+    width: 5%;
+}
+.pnews
+{
+    color: #6c757d;
+    line-height: 1.8;
+}
+
+/* end of our news */ 
+
