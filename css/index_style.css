@@ -14,11 +14,25 @@ list-style-type: none;
 }
 
 .buton-navBar a{
-    border: 1px solid rgba(0,0,0,.2);
-    padding: 1rem 2rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 0.7rem 1.8rem;
+    color: #b7b7b7;
 
 }
 
+.content-style a{
+    color:#b7b7b7;
+    margin: 0px 0.7rem;
+}
+
+.content-style .active a{
+    color: #1e8bff;
+}
+.content-style
+
+{
+    margin-left: 7rem;
+}
 /*/////////////////////////////////////////*/
 
 /* Slider Style */
@@ -32,12 +46,50 @@ list-style-type: none;
     top : 45%
 }
 .carousel-item .carousel-caption a{
-   
- 
- padding: 0.5rem;
- border-radius: 5px;
- margin-top: 1rem ;
- display: inline-block;
+    Font-size: 16px;
+    font-weight:  400;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem ;
+    display: inline-block;
+    }
+
+.carousel-caption h1{
+    width: 75%;
+    font-size: 3rem;
+    margin: auto;
 }
 
+
+.bg-img-slider1 , .bg-img-slider2{
+    
+    background-position: center center;
+    background-size: cover;
+    height: 750px;
+    background-repeat: no-repeat;
+
+}
+
+
+.bg-img-slider1{
+    background-image: url(../images/slider-1.jpg);
+}
+.bg-img-slider2{
+    background-image: url(../images/slider-2.jpg);
+}
 /* ////////////////////////////////////////////*/
+
+/*HAPPY CUSTOMER SAYS (Section)*/
+*{
+    padding:0; 
+    margin:0;  
+    box-sizing: border-box; 
+}
+#feedback
+{
+    margin-top: 5%;
+}
+.test
+{
+    margin-top: 10%;
+}
