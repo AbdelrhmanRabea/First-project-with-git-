@@ -110,8 +110,15 @@ list-style-type: none;
 .test
 {
     margin-top: 2rem;
+
 }
 
+.text-feedback{
+    font-size: 1.2rem;
+    width: 90%;
+    font-style: italic;
+    line-height: 36px;
+}
 
 /* ////////////////////////////////////////////*/
 /* Our News  */ 
